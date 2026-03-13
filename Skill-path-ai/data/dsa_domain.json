@@ -1,0 +1,164 @@
+{
+ "Problem Solving Fundamentals": {
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "prerequisites": []
+ },
+
+ "Recursion": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Problem Solving Fundamentals"]
+ },
+
+ "Time Complexity Analysis": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Problem Solving Fundamentals"]
+ },
+
+ "Arrays": {
+  "difficulty": "Beginner",
+  "estimated_hours": 10,
+  "prerequisites": ["Problem Solving Fundamentals"]
+ },
+
+ "Strings (Algorithms)": {
+  "difficulty": "Beginner",
+  "estimated_hours": 10,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Linked Lists": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Stacks": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Queues": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Hash Tables": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Trees": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Linked Lists"]
+ },
+
+ "Binary Trees": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Trees"]
+ },
+
+ "Binary Search Trees": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Binary Trees"]
+ },
+
+ "Heap / Priority Queue": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Binary Trees"]
+ },
+
+ "Graphs": {
+  "difficulty": "Advanced",
+  "estimated_hours": 18,
+  "prerequisites": ["Trees"]
+ },
+
+ "Graph Traversal (BFS / DFS)": {
+  "difficulty": "Advanced",
+  "estimated_hours": 12,
+  "prerequisites": ["Graphs"]
+ },
+
+ "Sorting Algorithms": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Searching Algorithms": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Binary Search": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 8,
+  "prerequisites": ["Searching Algorithms"]
+ },
+
+ "Greedy Algorithms": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Time Complexity Analysis"]
+ },
+
+ "Divide and Conquer": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Recursion"]
+ },
+
+ "Dynamic Programming": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "Recursion",
+   "Time Complexity Analysis"
+  ]
+ },
+
+ "Backtracking": {
+  "difficulty": "Advanced",
+  "estimated_hours": 18,
+  "prerequisites": ["Recursion"]
+ },
+
+ "Graph Algorithms": {
+  "difficulty": "Advanced",
+  "estimated_hours": 18,
+  "prerequisites": ["Graph Traversal (BFS / DFS)"]
+ },
+
+ "Shortest Path Algorithms": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Graph Algorithms"]
+ },
+
+ "Minimum Spanning Tree": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Graph Algorithms"]
+ },
+
+ "Competitive Programming": {
+  "difficulty": "Advanced",
+  "estimated_hours": 40,
+  "prerequisites": [
+   "Dynamic Programming",
+   "Graph Algorithms",
+   "Sorting Algorithms"
+  ]
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "Security Fundamentals": {
+  "difficulty": "Beginner",
+  "estimated_hours": 15,
+  "prerequisites": []
+ },
+
+ "Cybersecurity Principles": {
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "prerequisites": ["Security Fundamentals"]
+ },
+
+ "Threat Modeling": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Cybersecurity Principles"]
+ },
+
+ "Networking Security Basics": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Cybersecurity Principles"
+  ]
+ },
+
+ "Linux Security": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Cybersecurity Principles"
+  ]
+ },
+
+ "Access Control": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Security Fundamentals"]
+ },
+
+ "Cryptography Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 18,
+  "prerequisites": ["Cybersecurity Principles"]
+ },
+
+ "Encryption Techniques": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Cryptography Fundamentals"]
+ },
+
+ "Hashing Algorithms": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Cryptography Fundamentals"]
+ },
+
+ "Public Key Infrastructure": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Cryptography Fundamentals"]
+ },
+
+ "Web Security Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Cybersecurity Principles"
+  ]
+ },
+
+ "Common Web Vulnerabilities (OWASP)": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Web Security Fundamentals"]
+ },
+
+ "Network Security": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 18,
+  "prerequisites": ["Networking Security Basics"]
+ },
+
+ "Security Monitoring": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Network Security"]
+ },
+
+ "Incident Response": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Security Monitoring"]
+ },
+
+ "Vulnerability Assessment": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Cybersecurity Principles"]
+ },
+
+ "Penetration Testing": {
+  "difficulty": "Advanced",
+  "estimated_hours": 25,
+  "prerequisites": [
+   "Vulnerability Assessment",
+   "Linux Security",
+   "Network Security"
+  ]
+ },
+
+ "Ethical Hacking": {
+  "difficulty": "Advanced",
+  "estimated_hours": 25,
+  "prerequisites": ["Penetration Testing"]
+ },
+
+ "Malware Analysis": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "Linux Security",
+   "Cybersecurity Principles"
+  ]
+ },
+
+ "Digital Forensics": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": ["Incident Response"]
+ },
+
+ "Security Automation": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Security Monitoring"]
+ },
+
+ "Cloud Security": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "Network Security"
+  ]
+ }
+}

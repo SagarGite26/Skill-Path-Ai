@@ -1,0 +1,172 @@
+{
+ "Internet Fundamentals": {
+  "difficulty": "Beginner",
+  "estimated_hours": 6,
+  "prerequisites": []
+ },
+
+ "HTML5": {
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "prerequisites": ["Internet Fundamentals"]
+ },
+
+ "Semantic HTML": {
+  "difficulty": "Beginner",
+  "estimated_hours": 6,
+  "prerequisites": ["HTML5"]
+ },
+
+ "CSS3": {
+  "difficulty": "Beginner",
+  "estimated_hours": 15,
+  "prerequisites": ["HTML5"]
+ },
+
+ "Responsive Design": {
+  "difficulty": "Beginner",
+  "estimated_hours": 10,
+  "prerequisites": ["CSS3"]
+ },
+
+ "CSS Frameworks (Bootstrap / Tailwind)": {
+  "difficulty": "Beginner",
+  "estimated_hours": 10,
+  "prerequisites": ["CSS3"]
+ },
+
+ "JavaScript Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["HTML5", "CSS3"]
+ },
+
+ "DOM Manipulation": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["JavaScript Fundamentals"]
+ },
+
+ "Async JavaScript (Promises / Async-Await)": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["JavaScript Fundamentals"]
+ },
+
+ "JavaScript Modules": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["JavaScript Fundamentals"]
+ },
+
+ "Frontend Development": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": [
+   "HTML5",
+   "CSS3",
+   "JavaScript Fundamentals"
+  ]
+ },
+
+ "React": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 30,
+  "prerequisites": [
+   "JavaScript Fundamentals",
+   "DOM Manipulation",
+   "JavaScript Modules"
+  ]
+ },
+
+ "Next.js": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["React"]
+ },
+
+ "State Management": {
+  "difficulty": "Advanced",
+  "estimated_hours": 12,
+  "prerequisites": ["React"]
+ },
+
+ "Node.js": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": [
+   "JavaScript Fundamentals",
+   "Async JavaScript (Promises / Async-Await)"
+  ]
+ },
+
+ "Express.js": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Node.js"]
+ },
+
+ "REST API Design": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Express.js"]
+ },
+
+ "Authentication (JWT / Sessions)": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["REST API Design"]
+ },
+
+ "Web Security Basics": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["REST API Design"]
+ },
+
+ "SQL Databases": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 18,
+  "prerequisites": []
+ },
+
+ "NoSQL Databases (MongoDB)": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 18,
+  "prerequisites": []
+ },
+
+ "Database Integration": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": [
+   "REST API Design",
+   "SQL Databases"
+  ]
+ },
+
+ "Backend Development": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Node.js",
+   "Express.js",
+   "Database Integration"
+  ]
+ },
+
+ "Full Stack Development": {
+  "difficulty": "Advanced",
+  "estimated_hours": 30,
+  "prerequisites": [
+   "Frontend Development",
+   "Backend Development"
+  ]
+ },
+
+ "Web Deployment": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Full Stack Development"]
+ }
+}

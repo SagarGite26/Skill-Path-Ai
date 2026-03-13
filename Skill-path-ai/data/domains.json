@@ -1,0 +1,79 @@
+{
+  "Programming": [
+    "C Programming",
+    "C++ (Modern STL)",
+    "Java (Core & Advanced)",
+    "Python (Scripting & Logic)",
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "Go (Golang)",
+    "Rust",
+    "Swift (iOS)",
+    "Kotlin (Android)",
+    "Object-Oriented Programming (OOP)"
+  ],
+
+  "DSA": [
+    "Data Structures",
+    "Algorithm Design",
+    "Competitive Programming",
+    "Discrete Mathematics",
+    "Searching Algorithms",
+    "Sorting Algorithms",
+    "Greedy Algorithms",
+    "Graph Algorithms",
+    "Hashing Algorithms",
+    "Dynamic Programming",
+    "Recursion",
+    "Trees",
+    "Linked Lists",
+    "Stacks",
+    "Queues"
+  ],
+
+  "Web Development": [
+    "HTML5 & Semantic Web",
+    "CSS3",
+    "SCSS",
+    "Tailwind / Bootstrap",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js"
+  ],
+
+  "Data & AI": [
+    "Python for Data Science",
+    "Data Cleaning",
+    "Exploratory Data Analysis",
+    "Data Visualization",
+    "Machine Learning Foundations",
+    "Deep Learning",
+    "Prompt Engineering",
+    "Vector Databases"
+  ],
+
+  "Databases": [
+    "SQL (PostgreSQL/MySQL)",
+    "NoSQL (MongoDB/Redis)",
+    "Database Integration"
+  ],
+
+  "DevOps": [
+    "Operating Systems",
+    "Computer Networking",
+    "Linux Command Line",
+    "Git & GitHub",
+    "Docker",
+    "Kubernetes",
+    "AWS Basics",
+    "Azure Basics"
+  ],
+
+  "Security": [
+    "Cybersecurity Fundamentals",
+    "Ethical Hacking",
+    "Security Principles",
+    "Cryptography Basics"
+  ]
+}

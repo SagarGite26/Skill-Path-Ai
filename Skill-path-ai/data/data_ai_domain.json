@@ -1,0 +1,160 @@
+{
+ "Mathematics Foundations": {
+  "difficulty": "Beginner",
+  "estimated_hours": 20,
+  "prerequisites": []
+ },
+
+ "Statistics": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Mathematics Foundations"]
+ },
+
+ "Probability": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "prerequisites": ["Statistics"]
+ },
+
+ "Linear Algebra": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Mathematics Foundations"]
+ },
+
+ "Python for Data Science": {
+  "difficulty": "Beginner",
+  "estimated_hours": 25,
+  "prerequisites": ["Mathematics Foundations"]
+ },
+
+ "NumPy": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Python for Data Science", "Linear Algebra"]
+ },
+
+ "Pandas": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["NumPy"]
+ },
+
+ "Data Cleaning": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Pandas"]
+ },
+
+ "Data Visualization": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Pandas"]
+ },
+
+ "Exploratory Data Analysis": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Data Cleaning",
+   "Data Visualization"
+  ]
+ },
+
+ "Feature Engineering": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Exploratory Data Analysis"]
+ },
+
+ "Machine Learning Foundations": {
+  "difficulty": "Advanced",
+  "estimated_hours": 40,
+  "prerequisites": [
+   "Statistics",
+   "Linear Algebra",
+   "Pandas",
+   "Exploratory Data Analysis"
+  ]
+ },
+
+ "Supervised Learning": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": ["Machine Learning Foundations"]
+ },
+
+ "Unsupervised Learning": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": ["Machine Learning Foundations"]
+ },
+
+ "Model Evaluation": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Machine Learning Foundations"]
+ },
+
+ "Hyperparameter Tuning": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Model Evaluation"]
+ },
+
+ "Deep Learning": {
+  "difficulty": "Advanced",
+  "estimated_hours": 40,
+  "prerequisites": [
+   "Machine Learning Foundations",
+   "Linear Algebra"
+  ]
+ },
+
+ "Neural Networks": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": ["Deep Learning"]
+ },
+
+ "Computer Vision": {
+  "difficulty": "Advanced",
+  "estimated_hours": 30,
+  "prerequisites": ["Deep Learning"]
+ },
+
+ "Natural Language Processing": {
+  "difficulty": "Advanced",
+  "estimated_hours": 30,
+  "prerequisites": ["Deep Learning"]
+ },
+
+ "Reinforcement Learning": {
+  "difficulty": "Advanced",
+  "estimated_hours": 30,
+  "prerequisites": ["Machine Learning Foundations"]
+ },
+
+ "Vector Databases": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Machine Learning Foundations"]
+ },
+
+ "Prompt Engineering": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": [
+   "Natural Language Processing"
+  ]
+ },
+
+ "Model Deployment": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "Machine Learning Foundations"
+  ]
+ }
+}

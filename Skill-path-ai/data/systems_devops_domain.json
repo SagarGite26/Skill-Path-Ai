@@ -1,0 +1,175 @@
+{
+ "Computer Fundamentals": {
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "prerequisites": []
+ },
+
+ "Operating Systems": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Computer Fundamentals"]
+ },
+
+ "Computer Networking": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Computer Fundamentals"]
+ },
+
+ "Linux Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "prerequisites": ["Operating Systems"]
+ },
+
+ "Linux Command Line": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Linux Fundamentals"]
+ },
+
+ "Shell Scripting": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Linux Command Line"]
+ },
+
+ "Version Control Concepts": {
+  "difficulty": "Beginner",
+  "estimated_hours": 8,
+  "prerequisites": []
+ },
+
+ "Git": {
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "prerequisites": ["Version Control Concepts"]
+ },
+
+ "GitHub": {
+  "difficulty": "Beginner",
+  "estimated_hours": 8,
+  "prerequisites": ["Git"]
+ },
+
+ "Networking Protocols (HTTP / TCP / DNS)": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Computer Networking"]
+ },
+
+ "Server Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Operating Systems"]
+ },
+
+ "Virtualization Concepts": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Operating Systems"]
+ },
+
+ "DevOps Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Linux Fundamentals",
+   "Git"
+  ]
+ },
+
+ "Containerization": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Virtualization Concepts"]
+ },
+
+ "Docker": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "Containerization",
+   "Linux Fundamentals"
+  ]
+ },
+
+ "Docker Networking": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Docker"]
+ },
+
+ "Docker Compose": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Docker"]
+ },
+
+ "Kubernetes": {
+  "difficulty": "Advanced",
+  "estimated_hours": 30,
+  "prerequisites": ["Docker"]
+ },
+
+ "Infrastructure as Code": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": ["DevOps Fundamentals"]
+ },
+
+ "CI/CD Concepts": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Git",
+   "DevOps Fundamentals"
+  ]
+ },
+
+ "CI/CD Tools (GitHub Actions / Jenkins)": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["CI/CD Concepts"]
+ },
+
+ "Cloud Computing Fundamentals": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Computer Networking"]
+ },
+
+ "AWS Basics": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Cloud Computing Fundamentals"]
+ },
+
+ "Azure Basics": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Cloud Computing Fundamentals"]
+ },
+
+ "Monitoring and Logging": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["DevOps Fundamentals"]
+ },
+
+ "Scalability and Load Balancing": {
+  "difficulty": "Advanced",
+  "estimated_hours": 15,
+  "prerequisites": ["Cloud Computing Fundamentals"]
+ },
+
+ "Production Deployment": {
+  "difficulty": "Advanced",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "CI/CD Tools (GitHub Actions / Jenkins)",
+   "Cloud Computing Fundamentals"
+  ]
+ }
+}

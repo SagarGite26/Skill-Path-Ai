@@ -1,0 +1,71 @@
+{
+"Machine Learning Engineer": [
+"We are looking for a Machine Learning Engineer skilled in Python, NumPy, pandas, scikit-learn, TensorFlow and data preprocessing. The candidate should understand machine learning algorithms, statistics, model training, and model deployment pipelines.",
+"Build and optimize ML models using Python, TensorFlow and PyTorch. Experience with feature engineering, deep learning, data analysis and model evaluation required."
+],
+
+"Data Scientist": [
+"Strong knowledge of Python, statistics, machine learning, SQL and data visualization tools such as matplotlib and seaborn. Experience with pandas, NumPy and exploratory data analysis required.",
+"Analyze datasets, build predictive models and communicate insights using Python, machine learning techniques, data visualization and statistical analysis."
+],
+
+"AI Engineer": [
+"Develop AI systems using Python, deep learning frameworks such as TensorFlow and PyTorch, natural language processing techniques and neural networks.",
+"Design and deploy artificial intelligence solutions involving machine learning, NLP models, deep learning architectures and large datasets."
+],
+
+"Backend Developer": [
+"Develop backend systems using Java, Spring Boot, REST APIs and SQL databases. Knowledge of microservices architecture, Docker and API security required.",
+"Design scalable backend services using Node.js, Express.js, REST APIs and database integration with PostgreSQL or MongoDB."
+],
+
+"Frontend Developer": [
+"Build responsive web interfaces using HTML5, CSS3, JavaScript, React.js and modern UI frameworks such as Tailwind or Bootstrap.",
+"Create dynamic user interfaces with React.js, TypeScript and modern frontend tooling. Experience with responsive design and web performance optimization."
+],
+
+"Full Stack Developer": [
+"Develop full stack applications using JavaScript, React.js, Node.js, Express.js and MongoDB. Experience with REST APIs and Git version control required.",
+"Work across frontend and backend technologies including React, Node.js, SQL databases and cloud deployment tools."
+],
+
+"DevOps Engineer": [
+"Maintain CI/CD pipelines using Git, Docker, Kubernetes and cloud services such as AWS. Experience with Linux systems and automation tools required.",
+"Implement infrastructure automation, container orchestration and continuous deployment using Docker, Kubernetes and cloud platforms."
+],
+
+"Data Engineer": [
+"Design data pipelines using Python, SQL and big data frameworks. Experience with data warehousing, ETL processes and distributed systems required.",
+"Build scalable data processing pipelines using Apache Spark, Python and SQL. Knowledge of database systems and data architecture required."
+],
+
+"Mobile App Developer": [
+"Develop Android applications using Kotlin and modern Android SDK tools. Experience with REST APIs, UI design and mobile architecture required.",
+"Build cross-platform mobile applications using Swift or Kotlin with strong understanding of mobile UI frameworks and API integration."
+],
+
+"Cybersecurity Analyst": [
+"Monitor and analyze security threats using network security tools, intrusion detection systems and vulnerability assessment techniques.",
+"Implement cybersecurity best practices, encryption protocols, security monitoring and incident response procedures."
+],
+
+"Blockchain Developer": [
+"Develop decentralized applications using blockchain technology, smart contracts and distributed ledger systems.",
+"Experience with blockchain platforms, cryptography, smart contracts and decentralized application architecture."
+],
+
+"Database Administrator": [
+"Manage relational databases such as PostgreSQL and MySQL. Optimize queries, ensure database security and maintain database performance.",
+"Design and maintain database systems, perform backups, optimize SQL queries and ensure high availability of data infrastructure."
+],
+
+"Cloud Engineer": [
+"Deploy and manage cloud infrastructure using AWS or Azure services. Experience with containerization, Kubernetes and infrastructure automation.",
+"Design scalable cloud systems using AWS services, networking, storage and cloud security best practices."
+],
+
+"Software Engineer": [
+"Develop software applications using Java, Python or C++. Strong understanding of object-oriented programming, algorithms and system design.",
+"Write clean, maintainable code while working with data structures, algorithms and version control using Git."
+]
+}

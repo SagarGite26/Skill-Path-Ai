@@ -1,0 +1,205 @@
+{
+ "Programming Logic": {
+  "difficulty": "Beginner",
+  "estimated_hours": 10,
+  "prerequisites": []
+ },
+
+ "Variables and Data Types": {
+  "difficulty": "Beginner",
+  "estimated_hours": 6,
+  "prerequisites": ["Programming Logic"]
+ },
+
+ "Operators": {
+  "difficulty": "Beginner",
+  "estimated_hours": 5,
+  "prerequisites": ["Variables and Data Types"]
+ },
+
+ "Control Structures": {
+  "difficulty": "Beginner",
+  "estimated_hours": 8,
+  "prerequisites": ["Operators"]
+ },
+
+ "Loops": {
+  "difficulty": "Beginner",
+  "estimated_hours": 8,
+  "prerequisites": ["Control Structures"]
+ },
+
+ "Functions": {
+  "difficulty": "Beginner",
+  "estimated_hours": 10,
+  "prerequisites": ["Loops"]
+ },
+
+ "Arrays": {
+  "difficulty": "Beginner",
+  "estimated_hours": 8,
+  "prerequisites": ["Variables and Data Types"]
+ },
+
+ "Strings": {
+  "difficulty": "Beginner",
+  "estimated_hours": 8,
+  "prerequisites": ["Arrays"]
+ },
+
+ "Basic Programming": {
+  "difficulty": "Beginner",
+  "estimated_hours": 15,
+  "prerequisites": [
+   "Programming Logic",
+   "Variables and Data Types",
+   "Operators",
+   "Control Structures",
+   "Loops",
+   "Functions"
+  ]
+ },
+
+ "Debugging Basics": {
+  "difficulty": "Beginner",
+  "estimated_hours": 6,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "Compilation and Build Process": {
+  "difficulty": "Beginner",
+  "estimated_hours": 6,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "Memory Concepts": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "Pointers": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["Memory Concepts"]
+ },
+
+ "File Handling": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 12,
+  "prerequisites": ["Functions"]
+ },
+
+ "Object Oriented Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "Classes and Objects": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Object Oriented Programming"]
+ },
+
+ "Inheritance": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Classes and Objects"]
+ },
+
+ "Polymorphism": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 10,
+  "prerequisites": ["Classes and Objects"]
+ },
+
+ "Encapsulation": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 8,
+  "prerequisites": ["Classes and Objects"]
+ },
+
+ "C Programming": {
+  "difficulty": "Beginner",
+  "estimated_hours": 30,
+  "prerequisites": [
+   "Basic Programming",
+   "Arrays",
+   "Functions"
+  ]
+ },
+
+ "Advanced C Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "prerequisites": [
+   "C Programming",
+   "Pointers",
+   "File Handling"
+  ]
+ },
+
+ "C++ Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 30,
+  "prerequisites": [
+   "Basic Programming",
+   "Object Oriented Programming"
+  ]
+ },
+
+ "Java Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 30,
+  "prerequisites": [
+   "Object Oriented Programming",
+   "Classes and Objects"
+  ]
+ },
+
+ "Python Programming": {
+  "difficulty": "Beginner",
+  "estimated_hours": 25,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "JavaScript Programming": {
+  "difficulty": "Beginner",
+  "estimated_hours": 25,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "TypeScript": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 15,
+  "prerequisites": ["JavaScript Programming"]
+ },
+
+ "Go Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Basic Programming"]
+ },
+
+ "Rust Programming": {
+  "difficulty": "Advanced",
+  "estimated_hours": 35,
+  "prerequisites": [
+   "Basic Programming",
+   "Memory Concepts"
+  ]
+ },
+
+ "Swift Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Object Oriented Programming"]
+ },
+
+ "Kotlin Programming": {
+  "difficulty": "Intermediate",
+  "estimated_hours": 25,
+  "prerequisites": ["Object Oriented Programming"]
+ }
+}
